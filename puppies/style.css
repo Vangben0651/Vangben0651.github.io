@@ -1,0 +1,265 @@
+@import url('https: //fonts.googlepis.com/scc2?family=Montserrat: ital,wght@0,300;1,300;1,600&display=swap');
+
+bady{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-color: lightgrey;
+	color: deepskyblue;
+	border-spacing: center;
+	margin: center;
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	padding: 10px 10px 10px 45px;
+	border-radius: 15%;
+	border: 10px solid darkcyan;
+}
+
+/* Vertical Nacigation bar */
+
+nav ul{
+	list-style-type: none;
+	padding-left: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 25px;
+	background-color: lightgray;
+
+
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+nav a:link{
+	color: saddlebrown;0
+}
+
+nav a: visited{
+	color: darkgoldenrod;
+}
+
+nav a:hover{
+	color: navajowhite;
+}
+
+nav a:active{
+	color: black;
+}
+
+footer{
+	text-align: center;
+	background-color: lightgrey;
+	text-color: darkcyan;
+	margin-top: 25px;
+	margin: block;
+	display: auto;
+
+}
+
+div{
+	display: block;
+}
+
+
+i.fa{
+  color: darkcyan;
+  font-size:40px;
+  text-align: center;
+}
+
+
+
+/*  CSS for tablets  */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+
+/*  CSS for Smartphones  */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+input[type=submit]{
+	background-color: lightgray;
+	border-radius: 5px;
+	display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+h1{
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	font-size: 55px;
+	color: darkcyan;
+	font-family: 'Dancing Script', cursive;
+	font-size: 5em;
+	font-weight: bold;
+	text-shadow: 2px 2px rosybrown;
+}
+
+
+main {
+    margin: auto;
+    max-width: 1200px;
+    background-color: lightgray;
+
+ }
+
+.fishing {
+    float: right;
+    max-width: 45%;
+    height: auto;
+    display: block;
+}
+
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 25px ;
+    font-weight: bold;
+	font-family: 'Cute Font', cursive;	
+	color: darkcyan;
+	margin-left: 45px;
+	text-align: center;
+	text-shadow: 5px 5px black;
+
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-top: 25px ;
+    font-weight: bold;
+	font-family: 'Cute Font', cursive;	
+	color: darkcyan;
+	margin-left: 45px;
+}
+
+
+}
+
+h4{
+	font-size: .75em;
+}
+
+blockquote{
+	margin: 20px;
+	margin-inline-start: 100px;
+}
+
+p{
+	font-size: 18px;
+	font-family: 'Graduate', cursive;
+	display: block;
+	color: darkcyan;
+
+}
+
+
+nav {
+    background-color: blanchedalmond;
+    margin: auto;
+    border-bottom: 5px solid deepskyblue;
+    border-top: 5px solid deepskyblue;
+    font-family: 'Poor Story', cursive;
+}
+
+
+body{
+	margin: 0%;
+	background-color: darkcyan;
+	font-weight: 350;
+	line-height: 1.5;
+}
+
+
+table{
+  border-collapse: collapse;
+}
+
+td, th{
+  
+ border:1px solid green;
+ padding: 5px;
+}
+
+th{
+  background-color:blue;
+  color:gold;
+}
+
+#submit{
+	display: block;
+	background-color: lightcoral;
+	height: 30px;
+}
+
+label{
+	float: center;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+
+}
+
+
+
+.game-controls {
+	margin-top: 20px;
+	text-align: center;
+}
+canvas {
+    background-color: orangered;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid darkred;
+    box-shadow: 10px 10px 6px 6px red;
+}
+
+
+.image-fluid{
+	max-width: 100%;
+	height: auto;
+
+}
+
+
+img{
+	margin: auto;
+	display: block;
+	vertical-align: middle;
+	border-style: none;
+	box-shadow: 5px 5px 5px 5px darkcyan;
+	border-radius: 20%;
+}
+
+head{
+	display: none;
+}

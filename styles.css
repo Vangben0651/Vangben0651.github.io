@@ -1,0 +1,217 @@
+header{
+    border-spacing: center;
+    padding: 30px;
+
+}
+
+
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.logo{
+    margin: 0 auto;
+    display:block;
+
+}
+
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 5%;
+
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+span{
+    text-align: left;
+    border-spacing: all;
+    padding-left: 25px; 
+    color: black;
+    margin: center;
+    display: block;
+    padding: 10px;
+
+}
+
+
+
+p,h2{
+    margin: 10px;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+
+}
+
+.home-hero{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+body{
+    background-color: Black;
+    margin: 10px 0;
+}
+
+
+main{
+    background: radial-gradient(circle, rgba(247,246,247,1) 0%, rgba(194,194,194,1) 22%, rgba(156,156,156,1) 38%);
+    margin: auto;
+    max-width: 1200px;
+    border-radius: 1%;
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+nav ul{
+    list-style-type: none;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    background: radial-gradient(circle, rgba(8,9,9,0.3533788515406162) 0%, rgba(50,51,51,1) 18%, rgba(71,72,72,1) 27%, rgba(90,91,91,1) 35%, rgba(113,114,114,1) 45%, rgba(137,137,137,1) 55%, rgba(158,158,158,1) 64%, rgba(172,172,172,1) 70%, rgba(188,188,188,1) 77%, rgba(204,204,204,1) 84%, rgba(213,213,213,1) 88%, rgba(225,225,225,1) 93%, rgba(227,227,227,1) 94%, rgba(242,242,241,1) 100%);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 5px;
+    color: silver;
+}
+
+nav a:link{
+    color: snow;
+}
+
+nav a: visited{
+    color: red;
+}
+
+nav a:hover{
+    color: lemonchiffon;
+}
+
+nav a:active{
+    color: black;
+}
+
+
+footer{
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    background: radial-gradient(circle, rgba(247,246,247,1) 0%, rgba(194,194,194,1) 22%, rgba(156,156,156,1) 38%, rgba(122,123,123,1) 52%, rgba(100,101,101,1) 61%, rgba(86,87,87,1) 67%, rgba(60,61,61,1) 78%, rgba(19,20,20,1) 95%, rgba(14,15,15,1) 97%, rgba(7,8,8,1) 100%);
+    margin-top: 10px;
+    display: block;
+
+}
+
+
+
+
+
+i.fa{
+  text-align: center;
+
+}
+
+
+i.fa-envelope{
+    font-size: 25px;
+    color: red;
+}
+
+i.fa-facebook-square{
+    color: blue;
+    font-size: 25px;
+}
+
+i.fa-instagram{
+    color: black;
+    font-size: 25px;
+}
+
+small{
+    color: gray;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+p,h5{
+    color: black;
+    font-family: 'Yuji Boku', serif;
+    font-size: bold;
+}
+
+
+
+
+.gallery .preview img#preview {
+    padding: 5x;
+    border: 10px dotted whitesmoke;
+    max-width: 100%;
+    border-radius: 5%;
+    height: auto;
+    margin: 10px auto !important;
+    display: block !important;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border: 5px dashed white;
+    border-radius: 15%;
+
+}
+
+
+
+
+/*  CSS for tablets  */
+@media only screen and (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+
+/*  CSS for Smartphones  */
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 1.5em;
+    }
+}

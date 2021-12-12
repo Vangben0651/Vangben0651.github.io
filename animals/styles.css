@@ -1,0 +1,231 @@
+header{
+    background-color: brown;
+    color: gold;
+    border-spacing: center;
+    margin: center;
+    border-top: 10px solid;
+    padding: 30px;
+    text-shadow: 3px 3px black;
+
+}
+
+h4{
+    font-family: 'Ribeye', cursive;
+
+}
+
+
+.gallery .preview img#preview {
+    padding: 5x;
+    border: 5px solid brown;
+    max-width: 100%;
+    border-radius: 5%;
+    height: auto;
+    margin: 10px auto !important;
+    display: block !important;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border: 2px solid brown;
+    border-radius: 5%;
+
+}
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid brown;
+
+}
+
+
+
+.fa-camera-retro {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: brown;
+}
+
+.fa-envelope{
+    color: steelblue;
+    font-size: 25px;
+}
+
+.fa-instagram{
+    color: black;
+    font-size: 25px;
+}
+
+.fa-facebook-square{
+    color: blue;
+    font-size: 25px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: brown;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 1.5em;
+}
+
+blockquote{
+    margin: 10px;
+    margin-inline-start: 100px;
+    margin-left: auto;
+}
+
+img {
+    margin: 0 auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.home-hero{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+nav ul{
+    list-style-type: none;
+    padding-left: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: gold;
+    font-family: 'Ribeye', cursive;
+
+
+}
+
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+nav a:link{
+    color: brown;0
+}
+
+nav a: visited{
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav a:active{
+    color: blueviolet;
+}
+
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+
+
+main{
+    max-width: 1200px;
+    margin: auto;
+    background-color: goldenrod;
+}
+
+body{
+    background-color: brown;
+}
+
+footer{
+    text-align: center;
+    background-color: goldenrod;
+    text-color: darkcyan;
+    margin-top: 25px;
+    margin: 40px 0 0 0;
+    display: block;
+
+}
+
+
+
+/*  CSS for tablets  */
+@media only screen and (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+
+/*  CSS for Smartphones  */
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 1.5em;
+    }
+}
